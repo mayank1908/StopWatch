@@ -13,7 +13,7 @@ startBtn.addEventListener('click', function(){
     if(timerId !== null){
         clearInterval(timerId);
     }
-    timerId = setInterval(startTimer, 10);
+    timerId = setInterval(startTimer, 1000);
 });
 
 stopBtn.addEventListener('click', function(){
